@@ -13,7 +13,7 @@ The project is also REST-API ready; meaning all end-points have been tested and 
 
 Some key technologies and tooling used include:
 - `Pest` - PHP testing library
-- `Jest` - javascript testing library
+- `Jest` - Javascript testing library
 - `Laravel Mix` - compile assets
 - `Laratrust` - provide roles and permissions based authorization
 - `Redis` - key-value based super-fast storage
@@ -31,6 +31,7 @@ You can check [more features here](https://inertia-skeleton.acelords.space/admin
 
 - Light/Dark Themes
 - SEO content management for frontend pages.
+- Sitemap Generator (Automated via Laravel Scheduler)
 - Admin Dashboard
     - Users Management
     - Settings
@@ -152,3 +153,5 @@ Here are the dependencies used in the project
 - [AceLords Store](https://store.acelords.space)
 - [AceLords Website](https://acelords.space)
 - [Github Projects](https://github.com/acelords)
+
+![Screenshot 2](admin-screenshots/admin-settings-sitemaps.jpg)
