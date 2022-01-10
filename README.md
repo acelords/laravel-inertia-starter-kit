@@ -34,6 +34,14 @@ You can check [more features here](https://inertia-skeleton.acelords.space/admin
 - Sitemap Generator (Automated via Laravel Scheduler)
 - Admin Dashboard
     - Users Management
+    - CMS Management
+        - SMS & SMS Templates
+        - Notifications
+        - Messages
+        - Contact Messages (From Contact Form)
+        - Testimonials
+        - Reviews
+        - E.T.C
     - Settings
         - ENV file (CRUD)
         - Configurations
@@ -51,9 +59,14 @@ You can check [more features here](https://inertia-skeleton.acelords.space/admin
             - Update permissions
             - Seed Demo data
     - Profile Management
+    - E.T.C
 - Client Dashboard
     - Profile Management
-
+    - View & Manage Bookmarked Blog Posts
+    - Notifications
+    - Messages
+    - Manage Subscriptions
+    - E.T.C
 
 
 ## Dependencies
@@ -87,9 +100,11 @@ Here are the dependencies used in the project
     "predis/predis": "^1.1",
     "rap2hpoutre/laravel-log-viewer": "^2.0",
     "spatie/laravel-query-builder": "^4.0",
+    "spatie/laravel-sitemap": "^6.0",
     "tightenco/ziggy": "^1.0"
 },
 "require-dev": {
+    "barryvdh/laravel-debugbar": "^3.6",
     "barryvdh/laravel-ide-helper": "^2.9",
     "facade/ignition": "^2.5",
     "fakerphp/faker": "^1.9.1",
@@ -105,9 +120,9 @@ Here are the dependencies used in the project
 #### package.json
 ```json
 "devDependencies": {
-    "@inertiajs/inertia": "^0.10.0",
-    "@inertiajs/inertia-vue3": "^0.5.1",
-    "@inertiajs/progress": "^0.2.6",
+    "@inertiajs/inertia": "^0.11.0",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@inertiajs/progress": "^0.2.7",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
     "@vue/compiler-sfc": "^3.0.5",
@@ -125,18 +140,22 @@ Here are the dependencies used in the project
     "vue-loader": "^16.1.2"
 },
 "dependencies": {
+    "@vueform/multiselect": "^2.3.1",
     "animate.css": "^4.1.1",
     "chart.js": "^3.7.0",
-    "daisyui": "^1.20.0",
+    "daisyui": "^1.22.0",
     "date-fns": "^2.27.0",
     "epic-spinners": "^1.1.0",
     "notiwind": "^1.2.4",
     "numeral": "^2.0.6",
     "pluralize": "^8.0.0",
     "sweetalert2": "^11.3.3",
+    "vue-ads-pagination": "^2.1.7",
     "vue-chartkick": "^1.1.0",
     "vue-cookie-comply": "^0.0.3",
     "vue-final-modal": "^3.4.3",
+    "vue-flatpickr-component": "^9.0.5",
+    "vue-tel-input": "^6.0.0-beta.6",
     "vue3trend": "^1.0.0"
 }
 ```
@@ -154,4 +173,4 @@ Here are the dependencies used in the project
 - [AceLords Website](https://acelords.space)
 - [Github Projects](https://github.com/acelords)
 
-![Screenshot 2](admin-screenshots/admin-settings-sitemaps.jpg)
+![Screenshot 2](admin-screenshots/admin-features.jpg)
