@@ -32,6 +32,7 @@ You can check [more features here](https://inertia-skeleton.acelords.space/admin
 - Light/Dark Themes
 - SEO content management for frontend pages.
 - Sitemap Generator (Automated via Laravel Scheduler)
+- Login via either Username/Email/Phone Number
 - Admin Dashboard
     - Users Management
     - CMS Management
@@ -174,3 +175,4 @@ Here are the dependencies used in the project
 - [Github Projects](https://github.com/acelords)
 
 ![Screenshot 2](admin-screenshots/admin-features.jpg)
+![Screenshot 3](pest-tests-api.png)
