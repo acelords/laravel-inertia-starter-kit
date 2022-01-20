@@ -25,6 +25,7 @@ Some key technologies and tooling used include:
 - [Feature List](https://inertia-skeleton.acelords.space/admin/features)
 
 ![Screenshot 1](admin-screenshots/admin-dashboard-1.jpg)
+![Screenshot 2](admin-screenshots/admin-dashboard-2.jpg)
 
 ## Features
 You can check [more features here](https://inertia-skeleton.acelords.space/admin/features) for the latest features incorporated in the project.
@@ -97,6 +98,8 @@ Here are the dependencies used in the project
     "laravel/slack-notification-channel": "^2.3",
     "laravel/socialite": "^5.2",
     "laravel/tinker": "^2.5",
+    "lasserafn/php-initial-avatar-generator": "^4.2",
+    "lexxyungcarter/chatmessenger": "^1.3",
     "maatwebsite/excel": "^3.1",
     "predis/predis": "^1.1",
     "rap2hpoutre/laravel-log-viewer": "^2.0",
@@ -141,22 +144,26 @@ Here are the dependencies used in the project
     "vue-loader": "^16.1.2"
 },
 "dependencies": {
+    "@tiptap/starter-kit": "^2.0.0-beta.170",
+    "@tiptap/vue-3": "^2.0.0-beta.88",
     "@vueform/multiselect": "^2.3.1",
     "animate.css": "^4.1.1",
     "chart.js": "^3.7.0",
     "daisyui": "^1.22.0",
     "date-fns": "^2.27.0",
     "epic-spinners": "^1.1.0",
+    "locutus": "^2.0.15",
     "notiwind": "^1.2.4",
     "numeral": "^2.0.6",
+    "platform": "^1.3.6",
     "pluralize": "^8.0.0",
     "sweetalert2": "^11.3.3",
     "vue-ads-pagination": "^2.1.7",
     "vue-chartkick": "^1.1.0",
     "vue-cookie-comply": "^0.0.3",
     "vue-final-modal": "^3.4.3",
-    "vue-flatpickr-component": "^9.0.5",
     "vue-tel-input": "^6.0.0-beta.6",
+    "vue3-datepicker": "^0.3.1",
     "vue3trend": "^1.0.0"
 }
 ```
