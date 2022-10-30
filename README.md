@@ -20,15 +20,15 @@ Some key technologies and tooling used include:
 - `Supervisor` - automated task runner (linux)
 
 ## Links & Demo
-- [Demo Link 1](https://inertia-skeleton.acelords.space)
-- [Purchase Link 1](https://store.acelords.space?search=laravel-inertia-skeleton)
-- [Feature List](https://inertia-skeleton.acelords.space/admin/features)
+- [Demo Link 1](https://inertia-skeleton.acelords.com)
+- [Purchase Link 1](https://store.acelords.com?search=laravel-inertia-skeleton)
+- [Feature List](https://inertia-skeleton.acelords.com/admin/features)
 
 ![Screenshot 1](admin-screenshots/admin-dashboard-1.jpg)
 ![Screenshot 2](admin-screenshots/admin-dashboard-2.jpg)
 
 ## Features
-You can check [more features here](https://inertia-skeleton.acelords.space/admin/features) for the latest features incorporated in the project.
+You can check [more features here](https://inertia-skeleton.acelords.com/admin/features) for the latest features incorporated in the project.
 
 - Light/Dark Themes
 - SEO content management for frontend pages.
@@ -169,16 +169,16 @@ Here are the dependencies used in the project
 ```
 
 ## Credits
-- [AceLords](https://acelords.space)
+- [AceLords](https://acelords.com)
 - [Lexx YungCarter](https://twitter.com/UnderscoreLexx)
 
 ## Contact
-- [Official: info@acelords.space](mailto:info@acelords.space)
+- [Official: info@acelords.com](mailto:info@acelords.com)
 - [Personal: lexxyungcarter@gmail.com](mailto:lexxyungcarter@gmail.com)
 
 ## Links
-- [AceLords Store](https://store.acelords.space)
-- [AceLords Website](https://acelords.space)
+- [AceLords Store](https://store.acelords.com)
+- [AceLords Website](https://acelords.com)
 - [Github Projects](https://github.com/acelords)
 
 ![Screenshot 2](admin-screenshots/admin-features.jpg)
